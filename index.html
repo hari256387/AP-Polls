@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Andhra Pradesh Politics Poll</title>
+</head>
+<body>
+    <header>
+        <h1>Andhra Pradesh Politics Poll</h1>
+    </header>
+    <main>
+        <h2>Vote for Your Preferred Party</h2>
+        <form id="pollForm">
+            <label for="partyTDP">
+                <input type="radio" name="party" id="partyTDP" value="TDP">
+                Telugu Desam Party (TDP)
+            </label><br>
+            <label for="partyYSRCP">
+                <input type="radio" name="party" id="partyYSRCP" value="YSRCP">
+                Yuvajana Sramika Rythu Congress Party (YSRCP)
+            </label><br>
+            <label for="partyJSP">
+                <input type="radio" name="party" id="partyJSP" value="JSP">
+                Jana Sena Party (JSP)
+            </label><br>
+            <label for="partyINC">
+                <input type="radio" name="party" id="partyINC" value="INC">
+                Indian National Congress (INC)
+            </label><br>
+            <label for="partyBJP">
+                <input type="radio" name="party" id="partyBJP" value="BJP">
+                Bharatiya Janata Party (BJP)
+            </label><br>
+            <button type="button" id="voteButton">Vote</button>
+        </form>
+        <div id="result" style="display: none;">
+            <h3>Results</h3>
+            <div id="resultList"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
